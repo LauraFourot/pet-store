@@ -1,0 +1,68 @@
+<section class="container add-page">
+    <md-content flex layout-padding>
+        <div flex="100" flex-xs="100">
+            <md-card class="detailsForm">
+                <md-toolbar class="md-accent" layout="row">
+                    <div layout="row" layout-align="start center" layout-padding>
+                        <a href="index.html">
+                            <md-icon md-svg-src="images/icons/back.svg" class="s48"></md-icon>
+                        </a>
+                    </div>
+                    <div flex="90" layout="row" layout-align="center center">
+                        <h2>Ajouter un nouvel animal </h2>
+                    </div>
+                </md-toolbar>
+                <div layout="row" layout-xs="column" layout-margin layout-padding>
+                    <div layout="column" flex-gt-md="50">
+                        <md-input-container flex>
+                            <label>Catégorie</label>
+                            <md-select ng-model="pet.category">
+                                <md-option ng-repeat="category in categories" value="category">
+                                    {{category}}
+                                </md-option>
+                            </md-select>
+                        </md-input-container>
+                        <md-input-container flex>
+                            <md-radio-group ng-model="pet.gender" layout="row">
+                                <md-radio-button value="F">Femelle</md-radio-button>
+                                <md-radio-button value="M"> Mâle </md-radio-button>
+                            </md-radio-group>
+                        </md-input-container>
+                        <div layout="row" layout-sm="column" layout-xs="column">
+                            <md-input-container flex-gt-md="50">
+                                <label>Né le</label>
+                                <md-datepicker ng-model="pet.birth_date"></md-datepicker>
+                            </md-input-container>
+                            <md-input-container flex-gt-md="50">
+                                <label>Nom de l'animal</label>
+                                <input ng-model="pet.name">
+                            </md-input-container>
+                        </div>
+                        <div layout="row">
+                            <input class="ng-hide" id="input-file-id" multiple type="file" />
+                            <label for="input-file-id" class="md-button md-raised md-primary">Choisir une photo</label>
+                        </div>
+                    </div>
+                    <div layout="column" flex>
+                        <md-input-container class="md-block">
+                            <label>Description</label>
+                            <textarea ng-model="pet.description" rows="5" md-select-on-focus></textarea>
+                        </md-input-container>
+                        <md-input-container flex>
+                            <md-radio-group ng-model="pet.status" layout-gt-md="row" layout-padding>
+                                <md-radio-button class="available-rb" value="available">Disponible</md-radio-button>
+                                <md-radio-button class="pending-rb" value="pending">En attente</md-radio-button>
+                                <md-radio-button class="sold-rb" value="sold">Vendu</md-radio-button>
+                            </md-radio-group>
+                        </md-input-container>
+                    </div>
+                </div>
+                <div layout="row" layout-margin layout-padding layout-align="end">
+                    <md-button href="index.html">ANNULER</md-button>
+                    <md-button>AJOUTER</md-button>
+                </div>
+        </div>
+        </md-card>
+        </div>
+    </md-content>
+</section>

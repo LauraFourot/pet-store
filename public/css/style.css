@@ -1,0 +1,160 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1, h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #212121;
+}
+
+.available-rb .md-off {
+    border-color: #689F38 !important;
+}
+
+.available-rb .md-on {
+    background-color: #689F38;
+}
+
+.pending-rb .md-off {
+    border-color: #0288D1 !important;
+}
+
+.pending-rb .md-on {
+    background-color: #0288D1;
+}
+
+.sold-rb .md-off {
+    border-color: #D32F2F !important;
+}
+
+.sold-rb .md-on {
+    background-color: #D32F2F;
+}
+
+footer {
+    height: 48px;
+    background-color: #546E7A;
+    color: #FFF;
+}
+
+.available-rb .md-off {
+    border-color: #689F38 !important;
+}
+
+.available-rb .md-on {
+    background-color: #689F38;
+}
+
+.pending-rb .md-off {
+    border-color: #0288D1 !important;
+}
+
+.pending-rb .md-on {
+    background-color: #0288D1;
+}
+
+.sold-rb .md-off {
+    border-color: #D32F2F !important;
+}
+
+.sold-rb .md-on {
+    background-color: #D32F2F;
+}
+
+.add-page md-card, .details-page md-card {
+  margin-bottom: 90px;
+}
+
+/* List */
+
+.search md-icon, .search label, .search input {
+    color: #fff;
+}
+
+.search md-input-container.md-icon-left {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.list {
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+.img-card img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 4px;
+    height: auto;
+    max-height: 163px;
+}
+
+.available {
+    border-top: 4px solid #689F38;
+}
+
+.pending {
+    border-top: 4px solid #0288D1;
+}
+
+.sold {
+    border-top: 4px solid #D32F2F;
+}
+
+
+/* Responsive */
+
+@media (max-width: 600px) {
+    .img-card img {
+        height: auto !important;
+        max-height: 80px !important;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    h1 {
+        font-size: 1.2em;
+    }
+    .img-card img {
+        height: 55px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+    .img-card img {
+        height: 90px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+    .img-card img {
+        height: 125px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .img-card img {
+        height: 135px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "category": "Chat",
+    "gender": "M",
+    "birth_date": "2015-12-01T23:00:00.000Z",
+    "name": "Cesar",
+    "photoUrls": "cat1.jpg",
+    "description": "Chaton roux de 2kg",
+    "status": "available"
+}, {
+    "id": 2,
+    "category": "Poisson",
+    "gender": "F",
+    "birth_date": "2015-12-16T23:00:00.000Z",
+    "name": "Bubulle",
+    "photoUrls": "fish1.jpg",
+    "description": "",
+    "status": "sold"
+}, {
+    "id": 3,
+    "category": "Lapin",
+    "gender": "M",
+    "birth_date": "2016-01-17T23:00:00.000Z",
+    "name": "Pompon",
+    "photoUrls": "rabbit1.jpg",
+    "description": "",
+    "status": "available"
+}, {
+    "id": 4,
+    "category": "Chien",
+    "gender": "M",
+    "birth_date": "2016-02-19T23:00:00.000Z",
+    "name": "Clovis",
+    "photoUrls": "dog1.jpg",
+    "description": "",
+    "status": "available"
+}, {
+    "id": 5,
+    "category": "Lapin",
+    "gender": "M",
+    "birth_date": "2016-08-22T22:00:00.000Z",
+    "name": "Dobby",
+    "photoUrls": "rabbit2.jpg",
+    "description": "Lapin bélier",
+    "status": "pending"
+}, {
+    "id": 6,
+    "category": "Chat",
+    "gender": "F",
+    "birth_date": "2015-01-22T22:00:00.000Z",
+    "name": "Kitty",
+    "photoUrls": "cat2.jpg",
+    "description": "Chat tigré",
+    "status": "pending"
+}, {
+    "id": 7,
+    "category": "Furet",
+    "gender": "F",
+    "birth_date": "2016-10-22T22:00:00.000Z",
+    "name": "Fiona",
+    "photoUrls": "ferret1.jpg",
+    "description": "Furet de 1kg",
+    "status": "available"
+}, {
+    "id": 8,
+    "category": "Lapin",
+    "gender": "F",
+    "birth_date": "2016-03-22T22:00:00.000Z",
+    "name": "Albert",
+    "photoUrls": "rabbit3.jpg",
+    "description": "Lapin bélier de 1.5kg",
+    "status": "available"
+}, {
+    "id": 9,
+    "category": "Chat",
+    "gender": "F",
+    "birth_date": "2016-01-01T22:00:00.000Z",
+    "name": "Josie",
+    "photoUrls": "cat3.jpg",
+    "description": "Chaton Main Coon de 3kg",
+    "status": "pending"
+}]

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" ng-app="petStoreApp">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Pet Store</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <md-toolbar>
+            <div class="md-toolbar-tools container">
+                <a href="#/list">
+                    <h1>Pet store</h1>
+                </a>
+                <span flex></span>
+                <a href="#/add">
+                    <md-button class="md-fab md-mini" aria-label="Favorite">
+                        <md-icon md-svg-src="images/icons/add.svg"></md-icon>
+                    </md-button>
+                </a>
+            </div>
+        </md-toolbar>
+    </header>
+
+    <!-- View -->
+    <div ng-view></div>
+
+    <footer layout="row" layout-align="end center" layout-padding>
+        <div>
+            <p>
+                Pet store
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+<script src="bower_components//angular/angular.min.js"></script>
+<script src="bower_components//angular-material/angular-material.min.js"></script>
+<script src="bower_components//angular-aria/angular-aria.min.js"></script>
+<script src="bower_components//angular-animate/angular-animate.min.js"></script>
+<script src="bower_components//angular-material/angular-material.min.js"></script>
+<script src="bower_components//angular-route/angular-route.min.js"></script>
+
+<script src="scripts/app.js"></script>
+<script src="scripts/controller/controller.js"></script>
+
+</html>
